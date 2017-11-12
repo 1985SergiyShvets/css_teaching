@@ -1,4 +1,17 @@
 h1 {color: red;
     }
 p {color: green;
-    }    
+    }
+.p::before {
+    color: blue;
+    content: "<"
+}
+.p::after {
+    color: blue;
+    content: ">"
+}
+.p {
+    color: orange;
+    }
+.p: hover {color: #0000FF; 
+    }
